@@ -40,6 +40,7 @@ body {
     }
 }
 
+//noinspection SassScssResolvedByNameOnly
 .heading-secondary {
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -57,12 +58,14 @@ body {
     }
 }
 
+//noinspection SassScssResolvedByNameOnly
 .heading-tertiary {
     font-size: $default-font-size;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
+//noinspection SassScssResolvedByNameOnly
 .paragraph {
     font-size: $default-font-size;
 
