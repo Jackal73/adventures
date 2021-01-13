@@ -35,6 +35,24 @@
         }
     }
 
+    &--white-1 {
+        background-color: rgba($color-white, .7);
+        color: rgba($color-grey-dark, .7);
+
+        &::after {
+            background-color: rgba($color-white, .8);
+        }
+    }
+
+    &--blue {
+        background-color: rgba($color-primary-dark, .7);
+        color: rgba($color-white, .8);
+
+        &::after {
+            background-color: rgba($color-primary-dark, .9);
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
